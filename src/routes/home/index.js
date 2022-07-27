@@ -1,5 +1,4 @@
 import { h } from 'preact';
-import style from './style.css';
 import { Link } from 'preact-router';
 import pokemon from '../../assets/images/pokemon.png'
 

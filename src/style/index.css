@@ -16,10 +16,6 @@ body {
   box-sizing: border-box;
 }
 
-.container{
-  background-color: aqua;
-}
-
 ::-webkit-scrollbar {
   width: 0.5rem;
 }
