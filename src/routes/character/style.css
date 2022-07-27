@@ -1,0 +1,32 @@
+.heading {
+  background-color: #a348e9;
+  width: 100%;
+  padding: 1rem 0;
+  color: black;
+  margin: 0;
+}
+
+.info {
+  padding: 56px 20px;
+  /* width: 100%; */
+  min-height: 100vh;
+  background-color: #b0d1fc;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.rectangle {
+  width: 60%;
+  margin: 0 auto;
+  background-color: #2dafe6;
+}
+
+.scroll-content {
+  overflow-y: scroll;
+  height: 85vh;
+}
+
+.arrow {
+  width: 1.5rem;
+  margin: 1rem 1rem 0;
+}

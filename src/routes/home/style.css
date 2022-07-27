@@ -1,0 +1,16 @@
+.home {
+  padding: 56px 20px;
+  text-align: center;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.home img {
+  height: 80vh;
+}
+
+@media all and (max-width: 610px) {
+  .home img {
+    width: 100%;
+  }
+}
