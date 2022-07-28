@@ -14,10 +14,11 @@ export default function CharacterStat({
     return {width: `${obj.base_stat}%`}
   }
   return (
-      <div class='d-lg-flex p-3' style='background-color: aqua'>
-        <div>
+      <div class='d-lg-flex' style='background-color: aqua'>
+        <div class='text-center'>
           <img
             class='p-3'
+            style='width: 16rem'
             src={sprites.front_default}
             alt={name}
           />

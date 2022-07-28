@@ -29,16 +29,16 @@ export default function Character({ id }) {
 
   if (loading) {
     return (
-      <div class='container pt-5 mx-auto my-0'>
+      <div class='container mx-auto my-0'>
         <h2>Loading...</h2>;
       </div>
     );
   }
 
   return (
-    <div class='container pt-5 mx-auto my-0'>
+    <div class='container mx-auto my-0' style='background-color: #9f23c3a8'>
       <div class='container mx-auto my-0 w-75'>
-        <h1 class='m-0 text-center p-2' style='background-color: violet'>{capitalize(details.name)}</h1>
+        <h1 class='m-0 text-center p-2' style='background-color: skyblue'>{capitalize(details.name)}</h1>
 
         <CharacterStat
           id={details.id}
