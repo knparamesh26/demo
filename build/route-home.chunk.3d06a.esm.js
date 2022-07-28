@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{"+1Jk":function(c,e,a){"use strict";a.r(e);var t=a("hosL"),n=a("Y3FI"),o=a.p+"ecab1d3b59cfb0e7cf8b731ff9895caa.png";e.default=()=>Object(t.h)("div",{class:"container text-center",style:"background-color: aqua"},Object(t.h)(n.a,{class:"text-decoration-none",href:"/pokemon"},Object(t.h)("img",{class:"w-50 p-5",src:o,alt:"Pokemon"}),Object(t.h)("h2",null,"View all character")))}}]);
+//# sourceMappingURL=route-home.chunk.3d06a.esm.js.map
