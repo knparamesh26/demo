@@ -8,7 +8,7 @@ import Pokemon from "../routes/pokemon";
 import Character from "../routes/character";
 
 const App = () => (
-  <div id="app">
+  <div class='container vh-100'>
     <Header />
     <Router>
       <Home path="/" />
