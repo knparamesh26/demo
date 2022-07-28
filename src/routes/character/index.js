@@ -1,6 +1,5 @@
 import { Link } from "preact-router";
 import { useEffect, useState } from "preact/hooks";
-import style from "./style.css";
 
 // import CharacterMoves from "../../components/characterMoves";
 // import CharacterProfile from "../../components/characterProfile";
@@ -26,20 +25,20 @@ export default function Character({ id }) {
       .finally(setLoading(false));
   }, []);
 
-  console.log(details);
+  // console.log(details);
 
   if (loading) {
     return (
-      <div class={style.info}>
+      <div class='container pt-5 mx-auto my-0'>
         <h2>Loading...</h2>;
       </div>
     );
   }
 
   return (
-    <div class={style.info}>
-      <div class={style.rectangle}>
-        <h1 class={style.heading}>{capitalize(details.name)}</h1>
+    <div class='container pt-5 mx-auto my-0'>
+      <div class='container mx-auto my-0 w-75'>
+        <h1 class='m-0 text-center p-2' style='background-color: violet'>{capitalize(details.name)}</h1>
 
         <CharacterStat
           id={details.id}
